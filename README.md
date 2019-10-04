@@ -3,7 +3,7 @@ Make `sshpass` command available to ci/cd pipeline
 
 ## Usage (gitlab-ci.yml)
 ```
-viewer_pages:
+publish:
     image: primus852/docker-sshpass
     script:
         - npm run build --prod --output-path=public
